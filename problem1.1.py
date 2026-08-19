@@ -1,12 +1,2 @@
-num = int(input("Enter a Number: "))
-print(num)
-
-if(num<0):
-    print("Number is negative!")
-
-elif(num>0):
-    print("Number is positive!")
-
-else:
-    print("Number is 0")
-    
+with open("notes.txt", "w") as f:
+    f.write("Learning Python is fun!")
